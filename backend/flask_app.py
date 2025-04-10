@@ -116,5 +116,20 @@ def getLink() -> Response:
 if __name__ == '__main__':
     app.run(debug=True)
 
+    # Add this to work with Vercel
+if __name__ == '__main__':
+    app.run(debug=True)
+else:
+    # For Vercel serverless
+    vercel_handler = app
+
+# Replace the config section in flask_app.py with:
+import os
+config = {
+    'mode': int(os.environ.get('MODE', 3)),
+    'user_id': os.environ.get('USER_ID', 'null'),
+    'cookie': os.environ.get('COOKIE', '')
+}
+
 # https://1024terabox.com/s/1eBHBOzcEI-VpUGA_xIcGQg
 # https://dm.terabox.com/indonesian/sharing/link?surl=KKG3LQ7jaT733og97CBcGg
