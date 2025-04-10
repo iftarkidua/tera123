@@ -15,7 +15,7 @@
     </tr>
     <tr>
         <td style="border: 1px solid transparent; line-height:1.3; padding: 0px;">API</td>
-        <td style="border: 1px solid transparent; line-height:1.3; padding: 0px;"><a href="https://teradl-api.dapuntaratya.com">TeraDL API</a></td>
+        <td style="border: 1px solid transparent; line-height:1.3; padding: 0px;"><a href="https://tera123-api.vercel.app/">TeraDL API</a></td>
     </tr>
     <tr>
         <td style="border: 1px solid transparent; line-height:1.3; padding: 0px;">Author</td>
