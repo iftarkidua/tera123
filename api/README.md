@@ -5,7 +5,7 @@
 ### Inisialisasi Variabel Awal
 
 ```js
-const api = 'https://teradl-api.dapuntaratya.com';
+const api = 'https://tera123-api.vercel.app';
 let mode = 1; // Mode Default = 1
 ```
 
